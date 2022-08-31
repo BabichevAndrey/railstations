@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.0"
+        xmlns="http://java.sun.com/xml/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+    <tlib-version>1.0</tlib-version>
+    <short-name>stationtag</short-name>
+    <uri>/WEB-INF/helloworldTag</uri>
+    <tag>
+        <name>portaltimenow</name>
+        <tag-class>com.rail.web.taglib.UserGreetingTag</tag-class>
+        <body-content>empty</body-content>
+        <info>show time on site</info>
+    </tag>
+    <tag>
+        <name>stationlistinfo</name>
+        <tag-class>
+            com.rail.web.taglib.StationInfoTag
+        </tag-class>
+        <body-content>JSP</body-content>
+        <attribute>
+            <name>a</name>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>b</name>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>time</name>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+    <tag>
+        <name>textBodyTag</name>
+        <tag-class>
+            com.rail.web.taglib.TextBody
+        </tag-class>
+        <body-content>JSP</body-content>
+        <attribute>
+            <name>iterations</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+</taglib>

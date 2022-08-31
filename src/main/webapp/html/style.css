@@ -1,0 +1,324 @@
+h2{
+    color: black;
+    font-size: 18px !important;
+    margin: 12px auto;
+    text-align: center;
+}
+
+.hero .caption .start_form h2 {
+    font-size: 36px;
+    padding-bottom: 10px;
+}
+
+.login_form, .registation_form{
+    margin-top: 5px;
+}
+
+ul.user_info {
+    color: white;
+}
+
+.logout_list{
+    margin: 0px;
+}
+
+.login_form #sublog, .registation_form #sublog{
+    margin-right: 12px;
+    margin-top: 18px;
+}
+
+.start_form{
+      width: 200px;
+      margin: 0px auto;
+      display: block;
+      border: 3px solid #fff;
+      border-radius: 5px;
+      padding: 20px;
+      margin-top: -170px;
+      padding-bottom: 70px;
+}
+
+.start_form .hero .caption h2{
+    font-size: 36px;
+}
+
+input#add_station {
+    /* color: #ffffff; */
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 22px;
+    display: block;
+    width: 509px;
+    height: 100px;
+    border: 0;
+    margin: 0;
+    padding: 0 20px;
+    outline: none;
+    background: #cbe0f4;
+    border-radius: 10px;
+}
+
+.start_form input {
+    margin: 3px;
+}
+
+.station_list.train_list.final_station_train_list, .train_list.start_station_train_list{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.station_list{
+    display: inline-block;
+}
+
+ul.properties_list_st {
+    margin-top: 30px;
+}
+
+.properties_list_st {
+    margin: 30px;
+}
+
+.buy_ticket_form{
+    margin: 0px auto;
+    display: block;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    padding: 20px;
+    padding-bottom: 70px;
+}
+
+.station_list_row, .station_list_row_main {
+    border-bottom: 1px solid #2196f3;
+    display: block;
+    height: 10px;
+    padding: 20px;
+    background: #bfd9f2;
+    opacity: 0.8;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top;
+}
+
+.station_list_name{
+    font-weight: bold;
+}
+
+.clear{
+    clear:both;
+}
+
+.station_input{
+    width: 12%;
+    float: left;
+}
+
+.station_input: hover{
+    cursor: pointer;
+    background: #fadf0c;
+}
+
+.delete_station, .delete_way, .edit_way {
+    border: 2px solid white;
+    background: none;
+    color: white;
+    padding: 4px 8px;
+    float: left;
+    display: block;
+    cursor: pointer;
+    margin-left: 2px;
+
+}
+
+.delete_station:hover, .delete_way:hover, .edit_way:hover {
+    background: #fadf0c;
+}
+
+.station_list_name,.station_list_time, .station_list_user{
+    width: 25%;
+    float: left;
+}
+
+#sort_station_links{
+    margin-top: -20px;
+}
+
+.train_list {
+    display: inline-block;
+    float: left;
+    width: 9.5%;
+}
+
+.green_span{
+    color: green;
+    border: 1px solid green;
+    padding: 7px;
+}
+
+.station_name{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.train_list_ticket {
+    display: inline-block;
+    float: left;
+    width: 14%;
+}
+
+#add_new_way .train_list {
+    display: inline-block;
+    width: 12%;
+}
+
+#add_new_way .add_new_way_li .number_train,
+#add_new_way .add_new_way_li.number_train_list{
+    width: 12% !important;
+}
+
+
+#add_new_way .add_new_way_li .time_start_train,
+#add_new_way .add_new_way_li .arrive_train,
+#add_new_way .add_new_way_li .time_start_train_list,
+#add_new_way .add_new_way_li .arrive_train_list
+{
+    width: 17% !important;
+}
+
+.train_list.id_train_list {
+    width: 14%;
+}
+
+.train_list.id_train{
+    width: 12%;
+}
+
+train_list trip_time{
+    width: 5%;
+}
+
+.final_station_train_list, .start_station_train_list{
+    text-transform:uppercase;
+}
+
+span.station_add {
+    font-size: 28px;
+    color: wheat;
+    margin: 15px auto;
+    width: 295px;
+    display: block;
+}
+
+#add_new_station, #add_station, #add_new_way_submit{
+    display: inline-block;
+}
+
+input#add_station {
+    display: inline-block;
+}
+
+#station_pag_next, #station_pag_pre{
+    margin-top: 0px !important;
+    background: #cbe0f4 !important;
+    color: black !important;
+    border-radius: 5px;
+}
+
+.search #submit_search_find,
+#add_new_station, #add_new_way_submit, #sublog, #station_pag_next, #station_pag_pre{
+    float: right;
+    margin: 30px 0 0 50px;
+    padding: 10px 30px 11px 30px;
+    border: 2px solid #ffffff;
+    background: transparent;
+    transition: background .1s linear;
+    -webkit-transition: background .1s linear;
+    -moz-transition: background .1s linear;
+    -o-transition: background .1s linear;
+    text-decoration: none;
+    color: #fff;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+#sublog:hover{
+    cursor:pointer;
+}
+
+#sublog1{
+     float: right;
+     margin-right: 20px;
+     border-color: #febe00;
+     border-bottom: 2px solid #fe9e00;
+     border-radius: 4px;
+     background: #febe00;
+     display: block;
+     background-position: right bottom;
+     padding-right: 27px;
+     padding-left: 12px;
+     color: #fff !important;
+     font-size: 12px;
+     text-decoration: none;
+     padding-top: 7px;
+     padding-bottom: 5px;
+     font-family: "lato-regular", Helvetica, Arial, sans-serif;
+     cursor: pointer;
+}
+
+#sublog:hover, #add_new_way_submit:hover, #add_new_station:hover, #station_pag_next:hover, #station_pag_pre:hover
+{
+    background: #fadf0c !important;
+    cursor: pointer;
+}
+
+.error_message{
+    color: red;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    padding: 0px;
+    border-radius: 3px;
+}
+
+
+input#add_way_train_id, input#add_way_dep_time,
+input#add_way_arrival_time,
+input#add_way_ticket_price,
+input#add_way_ticket_free,
+select#add_way_dep_station,
+select#rows_on_page,
+input#add_way_arrival_station,
+select#add_way_arrival_station
+{
+      font-family: "lato-regular", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      line-height: 13px;
+      display: block;
+      width: 116px;
+      height: 50px;
+      border: 0;
+      margin: 0;
+      padding: 0px 7px;
+      outline: none;
+      background: #cbe0f4;
+      border-radius: 10px;
+}
+
+input#add_way_dep_time, input#add_way_arrival_time{
+    width: 170px;
+}
+
+
+.rows_on_page{
+    float: left;
+    margin-left: 30px;
+}
+
+form#add_station_form {
+    margin-top: 20px;
+}
+

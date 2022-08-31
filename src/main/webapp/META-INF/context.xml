@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Context>
+    <Resource
+        driverClassName = "com.mysql.cj.jdbc.Driver"
+        auth="Container"
+        description="DB Connection"
+        maxActive = "10"
+        maxIdle = "2"
+        maxWait = "5000"
+        name = "jdbc/projectRail"
+        username = "root"
+        password = "root"
+        type = "javax.sql.DataSource"
+        url = "jdbc:mysql://localhost:3306/mydb"
+        validationQuery = "SELECT 1"
+    >
+    </Resource>
+</Context>

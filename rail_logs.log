@@ -1,0 +1,12 @@
+2022-07-27 21:15:22 DEBUG ContexListener:39 - Start context initialization
+2022-07-27 21:15:22 DEBUG ContexListener:42 - DataSource initialized
+2022-07-27 21:15:22 TRACE ContexListener:110 - context.setAttribute 'commandContainer': CommandContainer=[{null=com.rail.web.command.IndexCommand@658255aa, =com.rail.web.command.IndexCommand@658255aa, showStations=com.rail.web.command.ShowStationList@25290bca, add_new_way=com.rail.web.command.AddNewWay@76563d26, logout=com.rail.web.command.LogoutCommand@4ac86d6a, ticket=com.rail.web.command.ShowTicketCommand@3d904e9c, add_station=com.rail.web.command.AddNewStation@508a65bf, registration=com.rail.web.command.RegistrationCommand@17f2dd85, login=com.rail.web.command.LoginCommand@1e58512c, edit_route=com.rail.web.command.EditWayCommand@210308d5, find_route=com.rail.web.command.FindRouteCommand@22a736d7, buy_ticket=com.rail.web.command.BuyTicketCommand@23b8d9f3}]
+2022-07-27 21:15:22 DEBUG ContexListener:44 - Services initialized
+2022-07-27 21:15:22 INFO  ContexListener:47 - C:\Users\Admin\IdeaProjects\Rail\src\main\webapp\WEB-INF\classes\messages_en.properties
+2022-07-27 21:15:22 DEBUG ContexListener:50 - Debug info:org.apache.catalina.core.ApplicationContextFacade@38d17d80
+2022-07-27 21:17:02 DEBUG ContexListener:39 - Start context initialization
+2022-07-27 21:17:02 DEBUG ContexListener:42 - DataSource initialized
+2022-07-27 21:17:02 TRACE ContexListener:110 - context.setAttribute 'commandContainer': CommandContainer=[{null=com.rail.web.command.IndexCommand@5c77ba8f, =com.rail.web.command.IndexCommand@5c77ba8f, showStations=com.rail.web.command.ShowStationList@660f0c, add_new_way=com.rail.web.command.AddNewWay@7a0ef219, logout=com.rail.web.command.LogoutCommand@1b1f5012, ticket=com.rail.web.command.ShowTicketCommand@7add323c, add_station=com.rail.web.command.AddNewStation@4a734c04, registration=com.rail.web.command.RegistrationCommand@4760f169, login=com.rail.web.command.LoginCommand@261ea657, edit_route=com.rail.web.command.EditWayCommand@35c12c7a, find_route=com.rail.web.command.FindRouteCommand@658255aa, buy_ticket=com.rail.web.command.BuyTicketCommand@25290bca}]
+2022-07-27 21:17:02 DEBUG ContexListener:44 - Services initialized
+2022-07-27 21:17:02 INFO  ContexListener:47 - C:\Users\Admin\IdeaProjects\Rail\src\main\webapp\WEB-INF\classes\messages_en.properties
+2022-07-27 21:17:02 DEBUG ContexListener:50 - Debug info:org.apache.catalina.core.ApplicationContextFacade@508a65bf
